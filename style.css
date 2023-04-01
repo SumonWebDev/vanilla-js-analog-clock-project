@@ -1,0 +1,97 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    box-sizing: border-box;
+    font-size: 20px;
+}
+.clock{
+   
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    border: 2px solid black;
+    position: relative;
+    margin:auto;
+}
+.number{
+    position: absolute;
+    text-align: center ;
+    height: 100%;
+    width: 100%;
+    --rotation:0;
+}
+.number-1{
+    transform: rotate(30deg);
+}
+.number-2{
+    transform: rotate(60deg);
+}
+.number-3{
+    transform: rotate(90deg);
+}
+.number-4{
+    transform: rotate(120deg);
+}
+.number-5{
+    transform: rotate(150deg);
+}
+.number-6{
+    transform: rotate(180deg);
+}
+.number-7{
+    transform: rotate(210deg);
+}
+.number-8{
+    transform: rotate(240deg);
+}
+.number-9{
+    transform: rotate(270deg);
+}
+.number-10{
+    transform: rotate(300deg);
+}
+.number-11{
+    transform: rotate(330deg);
+}
+.number-12{
+    transform: rotate(360deg);
+}
+.hand{
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    left:50%;
+    right:50%;
+}
+.hour{
+    height:110px;
+    width:5px;
+    background:green;
+    border-radius: 5px;
+    transform-origin:top;
+}
+.minute{
+    height:130px;
+    width:4px;
+    background:orange;
+    border-radius: 5px;
+    transform-origin:top;
+}
+.second{
+    height:135px;
+    width:2px;
+    background: rgb(171, 29, 29);
+    border-radius: 5px;
+    transform-origin:top;
+}
+.dot{
+    height:13px;
+    width:13px;
+    border-radius: 50%;
+    background:black;
+    top:48%;
+    left: 49%;
+}
